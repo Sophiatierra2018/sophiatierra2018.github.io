@@ -1,21 +1,121 @@
-<html>
-    <head>
-        <title>Santo Domingo</title>
-    </head>
-    <body>
-        <h1>Hola mundo</h1>
-        <style> body {background-image: url("https://i.blogs.es/a7ce3d/7yxd9/450_1000.png")}
-            h1 {color:aliceblue}
-            #Integrantes{color:chartreuse}
-            #Gracias{color:blue;margin-left: 50%;}
-            #Megustaelpan{color: chocolate;margin-top: 40%;}
-            </style>
-        <img src="https://www.consalud.es/uploads/s1/12/65/84/5/papa-francisco_5_393x244.jpeg">
-        <iframe width="914" height="514" src="https://www.youtube.com/embed/usb1F46gMCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+    <title>
+        PROYECTO STEAM
+    </title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="PC,Hardware">
+    <link href="css/general.css" rel="stylesheet" type="text/css"/>
+    <link href="css/principal.css" rel="stylesheet" type="text/css"/>
+    <header>
+        <img id="tituloImangen" src="images/Principal/organos.jpg" alt="componentes">`
+        <input id="tituloTexto" type="search" placeholder="Buscar">
+        <img id="imagenPerfil" src="images/Principal/cole.png" alt="perfil"> 
+        <img id="imagenCorreo" src="images/Principal/correo.png" alt="correo"> 
+    </header>
+    <nav class = "navegacion">
+        <ul class = "lista">
+            <li><a href=https://www.who.int/es>OMS</a></li>
+            <li><a href=https://capacitacion.msp.gob.ec/>MSP</a></li>
+            <li><a href=http://www.donaciontrasplante.gob.ec/indot/direcciones/>INP</a></li>
+            <li><a href=https://www.salud.gob.ec/salud>MP</a></li>
+            <li><a href=https://www.ecuadorencifras.gob.ec/salud>INEC</a></li>
+            <li><a href=https://www.salud.gob.ec/el-ecuador-dice-si-a-la-donacion-de-organos-y-tejidos>EDO</a></li>
+            <li><a href=https://www.saludsa.com>SALUDSA</a></li>
+            <li><a href=https://www.paho.org/es>OPS</a></li>
+            </ul>
+    </nav>
+    <section id = "sectionHardware">
+        <h1 hidden> Introduccion al Hardware </h1>
+        <article class = "articleHardware">
+            <h2> ¿Qué es la donación de órganos? </h2>
+            <p> La donación de órganos es la remoción de órganos o tejidos del cuerpo de una persona que ha muerto recientemente o de un donante vivo, con el propósito de realizar un trasplante. Los órganos y los tejidos son extirpados en procedimientos similares a la cirugía. </p>
+            <input id= "boton1" type="submit" value="Me gusta">
+            <input id= "boton2" type="submit" value="No me gusta">
+        </article>
+        <aside class="asideVideo">
+            <iframe id="video"
+             width="914" height="514" src="https://www.youtube.com/embed/oJfc7sRWKBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </aside>
+    </section>
+    <section id =  "sectionNoticias">
+        <h1> NOTICIAS </h1>
+        <article class = "articleNoticia">
+            <h3 hidden>AMD</h3>
+            <cite>
+                HJCA conmemora Día Nacional de la Donación y el Trasplante</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>IBM</h3>
+            <cite>Científicos desarrollan “órganos universales” para trasplantes, sin importar el tipo de sangre</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>GOLBAL</h3>
+            <cite>Alemania rechaza la donacion automatica de organos</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>ASUS</h3>
+            <cite>2 transplantes cardiacos se realizaron tras 10 años de suspension</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>NVIDIA</h3>
+            <cite>Cerdos geneticamente modificados podrian ser donantes de organos</cite>
+        </article>
+        <article class = "articleNoticia">
+            <h3 hidden>INTEL</h3>
+            <cite>928 mil ecuatorianos han optado por no donar sus organos</cite>
+        </article>
+        <input id= "boton3" type="submit" value="Visualizar">
+    </section>
+    <section id = "sectionValoracion">
+        <h1> ¿Cómo ser donante? </h1>
+        <article class="articleValoracion">
+            <h2 hidden> ¿Como ser donante? </h2>
+            <div class= "divImagen">
+                <img id="imagenValoracion" src="images/Principal/coraZON.DONANTE - copia.jpeg" alt="images/Principal/"> 
+            </div>
+            <div class="estrellas">
+                <a data-value="1">&#9733;</a>
+                <a data-value="2">&#9733;</a>
+                <a data-value="3">&#9733;</a>
+                <a data-value="4">&#9733;</a>
+                <a data-value="5">&#9733;</a>
+            </div>
+        </article>
+        <aside class="asideValoracion">
+            <p><i>Sea mayor de edad y goce de un estado de salud adecuado, además de que exista compatibilidad biológica, anatómica y funcional con el receptor. Que el receptor tenga parentesco hasta cuarto grado de consanguinidad o se trate de su cónyuge o conviviente en Unión Libre.</i></p>
+        </aside>
+    </section>
     <footer>
-        <p id="Integrantes">Los integrantes son: Sophia Tierra, Julissa Escandon, Valeska Galarza, Antoni Almeida</p>
-        <p id="Gracias">Gracias</p>
-        <p id="Megustaelpan">Me gusta todo de ti</p>
+        <!-- <hr class="separator"> -->
+        <div id = "footerInfo">
+            <div id = "divImage1">
+                <img id="imagenFacebook" src="images/Principal/facebook.png" alt="facebook">
+                <img id="imagenInstagram" src="images/Principal/instagram.png" alt="instagram">
+            </div>
+            <div id = "divImage2">
+                <img id="imagenContacto" src="images/Principal/cole.png" alt="contacto">
+            </div>
+            <div id = "divCopy">
+                &copy; Todos los derechos reservados
+            </div>
+        </div>
+        <div id = "footerContacto">
+            <form>
+                <fieldset>
+                    <legend> Quienes somos </legend>
+                        <label class="labelContacto"> SOPHIA TIERRA, JULISSA ESCANDON, VALESKA GALARZA, ANTHONY ALMEIDA </label>
+                        <label class="labelContacto"> Correo: <a href="sophiatierra2018@gmail.com"> 
+                        sophiatierra2018@gmail.com </a> </label>
+                        <label class="labelContacto"> Telefono: <a href="tel:+593987884503"> 
+                            0987884503 </a> </label>
+                            <label class="labelContacto"> UNIDAD EDUCATIVA PARTICULAR "SANTO DOMINGO DE GUZMAN"</label>
+                </fieldset>
+            </form>
+        </div>
+        <div id = "footerLocalizacion">
+            <iframe id = "localizacion"
+            src="https://maps.google.com/?ll=-2.890517,-78.781193&z=16&output=embed"></iframe>
+        </div>
     </footer>
 </html>
